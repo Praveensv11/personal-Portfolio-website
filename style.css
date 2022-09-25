@@ -76,8 +76,15 @@
  .images img {
     height: 100%;
     position: absolute;
-    left:50%;
+    left:15%;
     bottom:0;
     transition:translatex(-50%);
     transition:bottom 1s, left 1s;
+ }
+
+ .images:hover .shape{
+    bottom:45%;
+ }
+ .images:hover .boy{
+    left: 45%;
  }
